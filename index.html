@@ -6,40 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora do lançamento oblíquio</title>
     <link rel="stylesheet"  href="style.css"/>
-    <script src="myscript.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div>
         <h1>Calculadora de lançamento oblíquio</h1>
-        <form action="#" methad="post" id="Formulario"></form>
+    <form action="#" methad="post" id="Formulario"></form>
     
-        <div class="p" id="p"
-         <label for="posiçãoinicial"> Posição inicial (m) <input type="number"></label>
+        <div>
+         <label for="posicaoinicial"> Posição inicial (m)
+            <input type="number" name="h0" id="posicaoinicial">
         </div>
 
-        <div class="v" id="v"
-        <label for="velocidadeinicial">Velocidade inicial (m/s) <input type="number"></label>
-    </div>
+        <div>
+        <label for="velocidadeinicial">Velocidade inicial (m/s) 
+            <input type="number" name="v" id="velocidadeinicial">
+        </div>
 
-    <div class="t" id="t"
-    <label for="tempo">tempo (s)  <input type="number"></label>
-    </div>
-
+        <div>
+        <label for="tempo">tempo (s)  
+        <input type="number" name="t" id="tempo">
+    
+        </div>
         <button type="button" id="calcular">calcule</button>
-    </form>
-        <h2>Resultados</h2>
-        <p id="resultado horizonal"></p>
+        
+    </form> 
+             <h2>Resultados</h2>
+             <p id="resultado"></p>
 
-        <div class="p" id="p"
-        <label for="posiçãohorizontal">Posição Hozizontal <input type="number"></label>
+            <div class="p" id="p">
+
     </div>
-
-    <div class="p" id="p"
-    <label for="posiçãovertical">Posição Vertical <input type="number"></label>
-</div>
-
-
-        </div>
 </body>
-</html>
+</html> 
